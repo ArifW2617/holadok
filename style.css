@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Source Sans Pro;
+}
+
+.container {
+  padding: 45px 100px;
+  display: inline-block;
+}
+
+.navbar {
+  width: 1140px;
+  height: 37px;
+  display: flex;
+}
+
+.navbar-kiri {
+  display: flex;
+  gap: 15px;
+  width: 199px;
+}
+
+.nama p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.navbar-tengah {
+  width: 646px;
+}
+
+.navbar-tengah a:hover {
+  color: #020b25;
+  transition: all .3s;
+}
+
+.navbar-tengah a {
+  padding-right: 50px;
+  color: #101c45;
+  text-decoration: none;
+}
+
+.home {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navbar-kanan {
+  width: 295px;
+  float: right;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  z-index: 5;
+}
+
+.navbar-kanan button {
+  color: #101c45;
+  background:none;
+}
+
+.login {
+  border: none;
+  padding: 0 20px;
+  color: #101C45;
+}
+
+.login:hover {
+  cursor: pointer;
+  border: 1px solid #101C45;
+  transition: all .4s;
+}
+
+.book {
+  outline: 1px;
+  padding: 8px 20px;
+  gap: 10px;
+  width: 117px;
+  height: 37px;
+  border: 1px solid #101c45;
+  color: #101C45;
+}
+
+.book:hover {
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.main-kiri {
+  width: 457px;
+  margin-top: 100px;
+}
+
+.text-besar {
+  font-family: "DM sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: #101c45;
+  margin-bottom: 20px;
+}
+
+.text-kecil {
+  font-size: 18px;
+  line-height: 30px;
+  color: #101c45;
+  font-family: "DM sans";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.text-button button {
+  padding: 15px 35px;
+  background-color: #203271;
+  color: #ffffff;
+  border: none;
+}
+
+.text-button button:hover {
+  cursor: pointer;
+}
+
+.main-tengah {
+  width: 292px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  margin-left: 56px;
+  position: absolute;
+  top: 15%;
+  right: 30%;
+  z-index: 6;
+}
+
+.atas {
+  display: flex;
+}
+
+.atas-kiri {
+  display: flex;
+  gap: 10px;
+  width: 260px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.text-twit {
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.latar-belakang {
+  position: absolute;
+  width: 590px;
+  height: 847px;
+  left: 53%;
+  top: 18px;
+  max-height: 94.5vh;
+}
+
+.gambar-orang {
+  position: absolute;
+  top: 7%;
+  right: 3%;
+}
+
+.gambar-orang img{
+  position: absolute;
+}
